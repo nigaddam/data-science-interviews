@@ -1,14 +1,14 @@
 # STATISTICAL EXPERIMENTATION
 
-* DEFINITIONS
+# DEFINITIONS
 
-ALPHA:
+* ALPHA:
 
-Conversion:
+* Conversion:
 
-Lift:
+* Lift:
 
-Power:
+* Power:
 
-Sample Size:
+* Sample Size:
 
