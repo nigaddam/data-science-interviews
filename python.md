@@ -3,7 +3,7 @@
 # Write a function to returns a list of all the duplicate elements from the input list
 # Example 
 input_list = [67, 3, 48, 94, 19, 7, 94, 55, 19, 3]
-# output_list =  [3, 94, 19]
+output_list =  [3, 94, 19]
 
   ``` 
 output_list = []
