@@ -1,7 +1,7 @@
 # Python examples
 
 # Write a function to returns a list of all the duplicate elements from the input list
-# Example 
+<!-- Example  -->
 input_list = [67, 3, 48, 94, 19, 7, 94, 55, 19, 3]
 output_list =  [3, 94, 19]
 
@@ -23,8 +23,9 @@ return_func(input_list)
   ``` 
 
 # Add the prime factorials of a number
-# 
-# 
+<!-- f(25) = 5 -->
+<!-- f(10) = 7 -->
+<!-- f(15) = 8 -->
 ``` 
 def find_prime_factores(n):
     list_prime = []
@@ -55,7 +56,6 @@ print('result: ', sum(unique_list))
 
 
 # checking for the winner of the tic tac toe game
-# 
 ``` 
 def check_if_winner(self, tic_tac_toe):
 
