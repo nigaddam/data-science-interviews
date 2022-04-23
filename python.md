@@ -22,9 +22,9 @@ return_func(input_list)
   ``` 
 
 # Add the prime factorials of a number
-<!-- f(25) = 5 --><br /> 
-<!-- f(10) = 7 --><br />
-<!-- f(15) = 8 --><br />
+f(25) = 5 <br /> 
+f(10) = 7<br />
+f(15) = 8<br />
 ``` 
 def find_prime_factores(n):
     list_prime = []
