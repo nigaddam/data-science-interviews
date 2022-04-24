@@ -23,59 +23,59 @@ When we know:<br>
 
 # PROBABILITY PRACTICE PROBLEMS
 
-1. On a six-sided die, each side has a number between 1 and 6. What is the probability of throwing a 3 or a 4?
+1. On a six-sided die, each side has a number between 1 and 6. What is the probability of throwing a 3 or a 4? <br>
 
-Ans: 2/6 = 1/3
+Ans: 2/6 = 1/3 <br>
 
 2. Three coins are tossed up in the air, one at a time. What is the probability that two of them will land heads up and one will land tails up?
 
-Ans: 
-All choices  = HHH, THH, HTH, HHT, THT, TTH, HTT, TTT
-P(HHT) & P(HTH) & P(THH)  = 1/8 + 1/8 + 1/8  = 3/8
+Ans: <br>
+All choices  = HHH, THH, HTH, HHT, THT, TTH, HTT, TTT <br>
+P(HHT) & P(HTH) & P(THH)  = 1/8 + 1/8 + 1/8  = 3/8 <br>
 
-3. A two-digit number is chosen at random. What is the probability that the chosen number is a multiple of 7?
+3. A two-digit number is chosen at random. What is the probability that the chosen number is a multiple of 7? <br>
 
-Ans: 
-Total Possibilitites = 10 to 99 = 09-10+1 = 90
-Total Multiples of 7 netween 1 & 9 = 1
-Total Multiples of 7 netween 1 & 100 = 14
-Total multiples between 10 & 100 = 14-1 = 13
-P(chosen number is multiple of 10) = 13/90
+Ans: <br>
+Total Possibilitites = 10 to 99 = 09-10+1 = 90 <br>
+Total Multiples of 7 netween 1 & 9 = 1 <br>
+Total Multiples of 7 netween 1 & 100 = 14 <br>
+Total multiples between 10 & 100 = 14-1 = 13 <br>
+P(chosen number is multiple of 10) = 13/90 <br>
 
-4. A bag contains 14 blue, 6 red, 12 green, and 8 purple buttons. 25 buttons are removed from the bag randomly. How many of the removed buttons were red if the chance of drawing a red button from the bag is now 1/3?
+4. A bag contains 14 blue, 6 red, 12 green, and 8 purple buttons. 25 buttons are removed from the bag randomly. How many of the removed buttons were red if the chance of drawing a red button from the bag is now 1/3? <br>
 
-Ans: 
-Total Buttons = 40
-After 25 buttons are removed, # of buttons left = 15
-No of reds left = x = 15/3 = 5    (1/3  = x/15) 
-Hence from total 6, no of removed buttons that were red are 1
+Ans:  <br>
+Total Buttons = 40 <br>
+After 25 buttons are removed, # of buttons left = 15 <br>
+No of reds left = x = 15/3 = 5    (1/3  = x/15)  <br>
+Hence from total 6, no of removed buttons that were red are 1 <br>
 
-5. There are 6 blue marbles, 3 red marbles, and 5 yellow marbles in a bag. What is the probability of selecting a blue or red marble on the first draw?
+5. There are 6 blue marbles, 3 red marbles, and 5 yellow marbles in a bag. What is the probability of selecting a blue or red marble on the first draw? <br>
 
-Ans: 
-P(blue) = 6/14
-P(red) = 3/14
-P(blue or red) = 6/14 + 3/14 =9/14
+Ans:  <br>
+P(blue) = 6/14 <br>
+P(red) = 3/14 <br>
+P(blue or red) = 6/14 + 3/14 =9/14 <br>
 
-6. Using a six-sided die, Carlin has rolled a six on each of 4 successive tosses. What is the probability of Carlin rolling a six on the next toss?
+6. Using a six-sided die, Carlin has rolled a six on each of 4 successive tosses. What is the probability of Carlin rolling a six on the next toss? <br>
 
-Ans: 
+Ans:  <br>
 
-7. A regular deck of cards has 52 cards. Assuming that you do not replace the card you had drawn before the next draw, what is the probability of drawing three aces in a row?
+7. A regular deck of cards has 52 cards. Assuming that you do not replace the card you had drawn before the next draw, what is the probability of drawing three aces in a row? <br>
 
-Ans: 
+Ans:  <br>
 
-8. An MP3 player is set to play songs at random from the fifteen songs it contains in memory. Any song can be played at any time, even if it is repeated. There are 5 songs by Band A, 3 songs by Band B, 2 by Band C, and 5 by Band D. If the player has just played two songs in a row by Band D, what is the probability that the next song will also be by Band D?
+8. An MP3 player is set to play songs at random from the fifteen songs it contains in memory. Any song can be played at any time, even if it is repeated. There are 5 songs by Band A, 3 songs by Band B, 2 by Band C, and 5 by Band D. If the player has just played two songs in a row by Band D, what is the probability that the next song will also be by Band D? <br>
 
-Ans: 
+Ans:  <br>
 
-9. Referring again to the MP3 player described in Question 8, what is the probability that the next two songs will both be by Band B?
+9. Referring again to the MP3 player described in Question 8, what is the probability that the next two songs will both be by Band B? <br>
 
-Ans: 
+Ans:  <br>
 
-10. If a bag of balloons consists of 47 white balloons, 5 yellow balloons, and 10 black balloons, what is the approximate likelihood that a balloon chosen randomly from the bag will be black?
+10. If a bag of balloons consists of 47 white balloons, 5 yellow balloons, and 10 black balloons, what is the approximate likelihood that a balloon chosen randomly from the bag will be black? <br>
 
-Ans: 
+Ans:  <br>
 
 
  # Example
