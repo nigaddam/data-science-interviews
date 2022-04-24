@@ -10,6 +10,17 @@ P(B or R) = P(B) + P(R)
 **The ‘And’ Rule:**
 P(A and B) = P(A) x P(B)
 
+**Bayes' Theorem**
+P(A|B) =  P(A) * P(B|A) / P(B)
+
+Which tells us:	 	
+    how often A happens given that B happens, written P(A|B),
+When we know:	 	
+    how often B happens given that A happens, written P(B|A)
+ 	 	and how likely A is on its own, written P(A)
+ 	 	and how likely B is on its own, written P(B)
+
+
 # PROBABILITY PRACTICE PROBLEMS
 
 1. On a six-sided die, each side has a number between 1 and 6. What is the probability of throwing a 3 or a 4?
