@@ -6,3 +6,4 @@
 * Awesome links: [awesome.md](awesome.md) (links, articles and videos)
 * Experimentation links: [experimentation.md](experimentation.md) (AB Tests and Statistics)
 * Probability: [probability.md](probability.md)
+* Python Code: [python.md](python.md)

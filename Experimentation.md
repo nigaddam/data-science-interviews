@@ -4,11 +4,13 @@
 
 * ALPHA:
 
-* Conversion:
-
-* Lift:
-
 * Power:
 
-* Sample Size:
 
+
+
+* Conversion:
+
+* Sample Size Calculation:
+
+* Lift:
