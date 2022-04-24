@@ -60,22 +60,41 @@ P(blue or red) = 6/14 + 3/14 =9/14 <br>
 6. Using a six-sided die, Carlin has rolled a six on each of 4 successive tosses. What is the probability of Carlin rolling a six on the next toss? <br>
 
 Ans:  <br>
+1/6   (The outcomes of previous rolls do not affect the outcomes of future rolls.)
 
 7. A regular deck of cards has 52 cards. Assuming that you do not replace the card you had drawn before the next draw, what is the probability of drawing three aces in a row? <br>
 
 Ans:  <br>
+4/52 * 3/51 * 2/50 = 1/13 * 1/17 * 1/25 = 1/221 * 1/25 = 1/5525  <br> 
 
-8. An MP3 player is set to play songs at random from the fifteen songs it contains in memory. Any song can be played at any time, even if it is repeated. There are 5 songs by Band A, 3 songs by Band B, 2 by Band C, and 5 by Band D. If the player has just played two songs in a row by Band D, what is the probability that the next song will also be by Band D? <br>
-
-Ans:  <br>
-
-9. Referring again to the MP3 player described in Question 8, what is the probability that the next two songs will both be by Band B? <br>
+8. An MP3 player is set to play songs at random from the fifteen songs it contains in memory. Any song can be played at any time, even if it is repeated. There are 5 songs by B and A, 3 songs by B and B, 2 by B and C, and 5 by B and D. If the player has just played two songs in a row by B and D, what is the probability that the next song will also be by B and D? <br>
 
 Ans:  <br>
+Any song can be repeated in random
+total songs = 15
+total songs by B and D = 5
+p(B and D) = 5/15 = 1/3
+
+
+9. Referring again to the MP3 player described in Question 8, what is the probability that the next two songs will both be by B and B? <br>
+
+Ans:  <br>
+P (B and B) = 3/15
+P (B and B & B and B) = 3/15 * 3/15 = 1/25
+
 
 10. If a bag of balloons consists of 47 white balloons, 5 yellow balloons, and 10 black balloons, what is the approximate likelihood that a balloon chosen randomly from the bag will be black? <br>
 
 Ans:  <br>
+n(black) = 10
+n(total) = 62
+P(black) = 10/62  
+
+11. In a lottery game, there are 2 winners for every 100 tickets sold on average. If a man buys 10 tickets, what is the probability that he is a winner? <br>
+
+Ans:  <br>
+First, simplify the winning rate. If there are 2 winners for every 100 tickets, there is 1 winner for every 50 tickets sold. This can be expressed as a probability of 1/50 or 0.02. In order to account for the (unlikely) scenarios of more than a single winning ticket, calculate the probability that none of the tickets win and then subtract that from 1. There is a probability of 49/50 that a given ticket will not win. For all ten to lose that would be (49/50)^(10) ≈ 0.817. Therefore, the probability that at least one ticket wins is 1 − 0.817 = 0.183 or about 18.3%
+
 
 
  # Example
