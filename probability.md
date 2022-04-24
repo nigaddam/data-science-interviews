@@ -13,12 +13,12 @@ P(A and B) = P(A) x P(B)
 **Bayes' Theorem**
 P(A|B) =  P(A) * P(B|A) / P(B)
 
-Which tells us:	 	
-    how often A happens given that B happens, written P(A|B),
-When we know:	 	
-    how often B happens given that A happens, written P(B|A)
- 	 	and how likely A is on its own, written P(A)
- 	 	and how likely B is on its own, written P(B)
+Which tells us:<br>
+    how often A happens given that B happens, written P(A|B),<br>
+When we know:<br>
+    how often B happens given that A happens, written P(B|A)<br>
+ 	 	and how likely A is on its own, written P(A)<br>
+ 	 	and how likely B is on its own, written P(B)<br>
 
 
 # PROBABILITY PRACTICE PROBLEMS
