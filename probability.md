@@ -1,66 +1,16 @@
 # Probability
 
-**probability**
+**probability:**
 (number of events) / (number of possible outcomes)
 
-**The ‘Or’ Rule**
+**The ‘Or’ Rule:**
 P(B or R) = P(B) + P(R)
 
 
-**The ‘And’ Rule**
+**The ‘And’ Rule:**
 P(A and B) = P(A) x P(B)
 
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         Both questions and answers here are given by the community. Be careful and double check the answers before using them. <br>
-         If you see an error, please create a PR with a fix
-      </td>
-   </tr>
-</table>
-
-&nbsp;
-
-**Imagine you have a jar of 500 coins. 1 out of 500 is a coin with two heads and all the others have a tail and a head. You take a random coin from the jar and flip it 8 times. You observe heads 8 consecutive time. Are the chances that you took the coin with two heads higher than having drawn a regular coin with a head and a tail?**
- 
-The main tool is Bayes Theorem. 
-
-Define A the event of tossing the chosen coin and having heads 8 times, `B_1` and `B_2` the events of choosing the special and fair coins respectivly. We compute the odd of choosing the special coin over the fair one given the event A.
- - `P(B_1|A) : P(B_2 |A)`
-
-If this odd is greater than 1, then the answer is yes. Otherwise, no.
-
-By Bayes theorem (some manipulations),
-- `P(B_1|A) : P(B_2 |A) = (P(A|B_1) P(B_1)) : (P(A|B_2) P (B_2)) ` 
-- `= ( P(A|B_1)/ P(A| B_2) ) * (P(B_1) / P(B_2) (*)`
- 
- The second ratio is the odd of choosing the special coin over the fair one. It equals `1/499`.
- 
- The first ratio is `1/(1/2)^8 = 256`.
-
-So the odd of choosing the special coin over the fair one given the event A is `256/499` which <1. Hence there is a lower chance that we took the special coin than the fair one.
-
-Extra comments:
- - From the solution, if there were 9 consecutive heads, then the odd would be 512/499 and hence the answer would be `yes`.
- - The formula (*), in general, has [the form ](https://en.wikipedia.org/wiki/Likelihood_ratios_in_diagnostic_testing#Estimation_of_pre-_and_post-test_probability)
- 
-      `post-odd = likelihood ratio of the event A * pre-odd`
- - Another solution is to compute directly `P(B_1|A)` by using Bayes and total probability theorems,
- 
-   ``` 
-   P(B_1|A) = P(A|B_1) P(B_1) / P(A) = P(A|B_1) P(B_1) / (P(A|B_1) P(B_1) + P(A|B_2) P(B_2))
-   = 1 * (1/500) / (1/500 + (1/2)^8 * (499/500)) 
-   ```
-   and see that it is `<1`
- - The problem contains several implicit assumptions. For example: 
-   - A with one head and tail is called **fair** under the assumption that both sides have equal chance to land in each toss.
-   - We assume that each toss results in a head or a tail face but no other scenarios (like standing)
-<br/>
-
-
-* PROBABILITY PRACTICE PROBLEMS
+# PROBABILITY PRACTICE PROBLEMS
 
 1. On a six-sided die, each side has a number between 1 and 6. What is the probability of throwing a 3 or a 4?
 
@@ -115,3 +65,46 @@ Ans:
 10. If a bag of balloons consists of 47 white balloons, 5 yellow balloons, and 10 black balloons, what is the approximate likelihood that a balloon chosen randomly from the bag will be black?
 
 Ans: 
+
+
+ # Example
+
+&nbsp;
+
+**Imagine you have a jar of 500 coins. 1 out of 500 is a coin with two heads and all the others have a tail and a head. You take a random coin from the jar and flip it 8 times. You observe heads 8 consecutive time. Are the chances that you took the coin with two heads higher than having drawn a regular coin with a head and a tail?**
+ 
+The main tool is Bayes Theorem. 
+
+Define A the event of tossing the chosen coin and having heads 8 times, `B_1` and `B_2` the events of choosing the special and fair coins respectivly. We compute the odd of choosing the special coin over the fair one given the event A.
+ - `P(B_1|A) : P(B_2 |A)`
+
+If this odd is greater than 1, then the answer is yes. Otherwise, no.
+
+By Bayes theorem (some manipulations),
+- `P(B_1|A) : P(B_2 |A) = (P(A|B_1) P(B_1)) : (P(A|B_2) P (B_2)) ` 
+- `= ( P(A|B_1)/ P(A| B_2) ) * (P(B_1) / P(B_2) (*)`
+ 
+ The second ratio is the odd of choosing the special coin over the fair one. It equals `1/499`.
+ 
+ The first ratio is `1/(1/2)^8 = 256`.
+
+So the odd of choosing the special coin over the fair one given the event A is `256/499` which <1. Hence there is a lower chance that we took the special coin than the fair one.
+
+Extra comments:
+ - From the solution, if there were 9 consecutive heads, then the odd would be 512/499 and hence the answer would be `yes`.
+ - The formula (*), in general, has [the form ](https://en.wikipedia.org/wiki/Likelihood_ratios_in_diagnostic_testing#Estimation_of_pre-_and_post-test_probability)
+ 
+      `post-odd = likelihood ratio of the event A * pre-odd`
+ - Another solution is to compute directly `P(B_1|A)` by using Bayes and total probability theorems,
+ 
+   ``` 
+   P(B_1|A) = P(A|B_1) P(B_1) / P(A) = P(A|B_1) P(B_1) / (P(A|B_1) P(B_1) + P(A|B_2) P(B_2))
+   = 1 * (1/500) / (1/500 + (1/2)^8 * (499/500)) 
+   ```
+   and see that it is `<1`
+ - The problem contains several implicit assumptions. For example: 
+   - A with one head and tail is called **fair** under the assumption that both sides have equal chance to land in each toss.
+   - We assume that each toss results in a head or a tail face but no other scenarios (like standing)
+<br/>
+
+
