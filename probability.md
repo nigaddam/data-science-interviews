@@ -1,17 +1,17 @@
 # Probability
 
-**probability:**
-(number of events) / (number of possible outcomes)
+**probability:**<br>
+(number of events) / (number of possible outcomes)<br>
 
-**The ‘Or’ Rule:**
-P(B or R) = P(B) + P(R)
+**The ‘Or’ Rule:**<br>
+P(B or R) = P(B) + P(R)<br>
 
 
-**The ‘And’ Rule:**
-P(A and B) = P(A) x P(B)
+**The ‘And’ Rule:**<br>
+P(A and B) = P(A) x P(B)<br>
 
-**Bayes' Theorem**
-P(A|B) =  P(A) * P(B|A) / P(B)
+**Bayes' Theorem**<br>
+P(A|B) =  P(A) * P(B|A) / P(B)<br>
 
 Which tells us:<br>
     how often A happens given that B happens, written P(A|B),<br>
